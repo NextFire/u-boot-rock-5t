@@ -1,15 +1,15 @@
+[submodule "arm-trusted-firmware"]
+	path = arm-trusted-firmware
+	url = https://github.com/ARM-software/arm-trusted-firmware.git
 [submodule "notes-for-rockchip-3588"]
 	path = notes-for-rockchip-3588
 	url = https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588.git
 [submodule "rkbin"]
 	path = rkbin
-	url = https://gitlab.collabora.com/hardware-enablement/rockchip-3588/rkbin.git
+	url = https://github.com/rockchip-linux/rkbin.git
 [submodule "rkdeveloptool"]
 	path = rkdeveloptool
 	url = https://github.com/rockchip-linux/rkdeveloptool.git
-[submodule "trusted-firmware-a"]
-	path = trusted-firmware-a
-	url = https://gitlab.collabora.com/hardware-enablement/rockchip-3588/trusted-firmware-a.git
 [submodule "u-boot"]
 	path = u-boot
-	url = https://gitlab.collabora.com/hardware-enablement/rockchip-3588/u-boot.git
+	url = https://github.com/u-boot/u-boot.git

@@ -1,12 +1,12 @@
 #!/bin/sh -xe
-cd trusted-firmware-a/
+cd arm-trusted-firmware/
 git clean -fxd
 make PLAT=rk3588 bl31
 
 cd ../u-boot/
 git clean -fxd
 export ROCKCHIP_TPL=../rkbin/bin/rk35/rk3588_ddr_lp4_2112MHz_lp5_2400MHz_v1.19.bin
-export BL31=../trusted-firmware-a/build/rk3588/release/bl31/bl31.elf
+export BL31=../arm-trusted-firmware/build/rk3588/release/bl31/bl31.elf
 make rock5b-rk3588_defconfig
 make -j$(nproc)
 

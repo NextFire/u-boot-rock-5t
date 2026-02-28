@@ -1,4 +1,4 @@
-# collabora-uboot-rk3588
+# u-boot-rock-5t
 
 ```sh
 git submodule update --init --recursive
