@@ -2,9 +2,10 @@
 
 ```sh
 git submodule update --init --recursive
-# In devcontainer
+# In the devcontainer
 ./build_uboot.sh
-# On host
+# On the host
 ./build_rkdeveloptool.sh
+# Put the board in maskrom mode, then
 ./write_uboot.sh
 ```
